@@ -1,0 +1,568 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/survey.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>survey</title>
+</head>
+<body class="bacground">
+  <body>
+    <div class="container ">
+      <div class="mx-0 mx-sm-auto">
+        <nav class="navbar navbar-expand-lg bg-light  navbar-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <span class="h3 fw-bold"><i class="bi bi-shield-shaded text-secondary">CDM</i><i class="bi bi-shield-shaded text-secondary"></i></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+              <ul class="navbar-nav text-end">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="ptable.html">Activity 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="activity.html">Activity  3</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+          </div>
+          <div class="modal-body">
+            <div class="text-center">
+              <img src="image/socialmedia.png" alt="" class="socialss w-50" >
+              <h3 class="query">Social Media Survey Form</h3>
+              <p>Please answer the form honestly<strong> Fill the form.</strong></p>
+            </div>
+            <hr>
+            <form class="px-1">
+              <p class="query">Name:</p>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+            </form>
+            <form class="px-1">
+              <p class="query">Address:</p>
+              <div class="row">
+                <div class="col pb-3">
+                  <input type="text" class="form-control" placeholder="Street Address">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col pb-3">
+                  <input type="text" class="form-control" placeholder="Municipality">
+                </div>
+                <div class="col pb-3">
+                  <input type="text" class="form-control" placeholder="City">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Region">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Postal/Zip Code">
+                </div>
+              </div>
+            </form>
+            <form class="px-1" action="">
+  
+              <p class="query">Gender:</p>
+              <div class="form-check mb-1 form-check-inline">
+                <input class="form-check-input" type="radio" name="Gender" id="gender1">
+                <label class="form-check-label" for="gender1">
+                  Male
+                </label>
+              </div>
+              <div class="form-check mb-1 form-check-inline">
+                <input class="form-check-input" type="radio" name="Gender" id="gender2">
+                <label class="form-check-label" for="gender2">
+                  Female
+                </label><br>
+              </div>
+            </form>
+            <form class="px-1" action="">
+  
+              <p class="query">How old are you?</p>
+              <div class="form-check mb-1">
+                <input class="form-check-input" type="radio" name="Old" id="old">
+                <label class="form-check-label" for="old">Under 18</label>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" type="radio" name="Old" id="old">
+                <label class="form-check-label" for="old">18 - 25</label><br>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" type="radio" name="Old" id="old">
+                <label class="form-check-label" for="old">25 - 45</label><br>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" type="radio" name="Old" id="old">
+                <label class="form-check-label" for="old">45 or more</label><br>
+              </div>
+            </form>
+            <form class="px-1" action="">
+              <p class="query">How often do you check your social media account?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Health" id="health1">
+                <label class="form-check-label" for="health1">
+                 Hourly
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Health" id="health2">
+                <label class="form-check-label" for="health2">
+                  Once in 2-3 days
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Health" id="health3">
+                <label class="form-check-label" for="health3">
+                 Daily
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Health" id="health3">
+                <label class="form-check-label" for="health3">
+                 Once a week
+                </label>
+              </div>
+            </form>
+  
+            <form class="px-1" action="">
+              <p class="query">Which of the social media accounts do you currently use?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="gym1">
+                <label class="form-check-label" for="gym1">
+                  Instagram
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="gym2">
+                <label class="form-check-label" for="gym2">
+                  Twitter
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="gym3">
+                <label class="form-check-label" for="gym3">
+                Tiktok
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="gym4">
+                <label class="form-check-label" for="gym4">
+                 Facebook
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="gym5">
+                <label class="form-check-label" for="gym5">
+                 LinkedIn
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="gym6">
+                <label class="form-check-label" for="gym6">
+                 Other
+                </label>
+              </div>
+            </form>
+            <form class="px-1" action="">
+              <p class="query">On average how much time do you spend on social media?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Often" id="often1">
+                <label class="form-check-label" for="often1">
+                  Less than 30 minutes
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Often" id="often2">
+                <label class="form-check-label" for="often2">
+                  1-2 hours
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Often" id="often3">
+                <label class="form-check-label" for="often3">
+                  3-4 hours
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Often" id="often3">
+                <label class="form-check-label" for="often3">
+                  More than 4 hours
+                </label>
+              </div>
+            </form>
+            <form class="px-1" action="">
+              <p class="query">What devices do you use to access yor social media account?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement1">
+                <label class="form-check-label" for="supplement1">
+                  Smart Phone
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement2">
+                <label class="form-check-label" for="supplement2">
+                Laptop
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement3">
+                <label class="form-check-label" for="supplement3">
+                  Tablet 
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement4">
+                <label class="form-check-label" for="supplement4">
+                  Desktop
+                </label>
+              </div>
+            </form>
+            <form class="px-1" action="">
+              <p class="query">What are your purposes of using social media?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement1">
+                <label class="form-check-label" for="supplement1">
+                 Keep up with friends
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement2">
+                <label class="form-check-label" for="supplement2">
+                socialize
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement3">
+                <label class="form-check-label" for="supplement3">
+                  Proote products/services
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement4">
+                <label class="form-check-label" for="supplement4">
+                  Find Employment
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement4">
+                <label class="form-check-label" for="supplement4">
+                 Make friends
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement4">
+                <label class="form-check-label" for="supplement4">
+                  Find a date
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement4">
+                <label class="form-check-label" for="supplement4">
+                  Event planning
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement4">
+                <label class="form-check-label" for="supplement4">
+                  Other
+                </label>
+              </div>
+            </form>
+            <form class="px-1" action="">
+              <p class="query">How many followers do you have on the social media account that you most frequently use?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids1">
+                <label class="form-check-label" for="steroids1">
+                  0-500
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+                <label class="form-check-label" for="steroids2">
+                  501-1000
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+                <label class="form-check-label" for="steroids2">
+                 1001-5000
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+                <label class="form-check-label" for="steroids2">
+                  5001-10000
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+                <label class="form-check-label" for="steroids2">
+                  10001-30000
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+                <label class="form-check-label" for="steroids2">
+                30001 and more
+                </label>
+              </div>
+            </form>
+            <form class="px-1" action="">
+              <p class="query">How many from your friends have you met or know in person?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Time" id="time1">
+                <label class="form-check-label" for="time1">
+                  All or ost of the time
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Time" id="time2">
+                <label class="form-check-label" for="time2">
+                  Nearly half of them
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Time" id="time3">
+                <label class="form-check-label" for="time3">
+                 Only a few of them
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Time" id="time3">
+                <label class="form-check-label" for="time3">
+               None of them
+                </label>
+              </div>
+            </form>
+            <form class="px-1" action="">
+              <p class="query">How often do you share posts on your social media accounts?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Skip" id="skip1">
+                <label class="form-check-label" for="skip1">
+                 Every day
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Skip" id="skip2">
+                <label class="form-check-label" for="skip2">
+                  1-2 times a week
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Skip" id="skip2">
+                <label class="form-check-label" for="skip2">
+                  Slightly often in a month
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Skip" id="skip2">
+                <label class="form-check-label" for="skip2">
+                  Not at all often
+                </label>
+              </div>
+            </form>
+            <form class="px-1" action="">
+              <p class="query">Which one do you use the most?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Hit" id="hit1">
+                <label class="form-check-label" for="hit1">
+                   Post
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Hit" id="hit2">
+                <label class="form-check-label" for="hit2">
+                  Stories
+                </label>
+              </div>
+            </form>
+            <form class="px-1" action="">
+              <p class="query">What type of content do you share on social media?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement1">
+                <label class="form-check-label" for="supplement1">
+                 Personal life
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement2">
+                <label class="form-check-label" for="supplement2">
+                Ideas
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement3">
+                <label class="form-check-label" for="supplement3">
+                 products/services
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement4">
+                <label class="form-check-label" for="supplement4">
+                  Travel destinations
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="supplement4">
+                <label class="form-check-label" for="supplement4">
+                 Others
+                </label>
+                </div> 
+              </form>
+              <form class="px-1" action="">
+                <p class="query">Do you use social media accounts to login to other websites?</p>
+                <div class="form-check mb-2">
+                  <input class="form-check-input" type="radio" name="Steroids" id="steroids1">
+                  <label class="form-check-label" for="steroids1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check mb-2">
+                  <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+                  <label class="form-check-label" for="steroids2">
+                  No
+                  </label>
+                </div>
+            </form>
+            <form class="px-1" action="">
+              <p class="query">On a scale of 1-5, how addicted are you to social media?</p>
+  
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids1">
+                <label class="form-check-label" for="steroids1">
+                  1
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+                <label class="form-check-label" for="steroids2">
+                2
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+                <label class="form-check-label" for="steroids2">
+                3
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+                <label class="form-check-label" for="steroids2">
+                4
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+                <label class="form-check-label" for="steroids2">
+                5
+                </label>
+              </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">How did social media affect your relationship with friends/family?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Steroids" id="steroids1">
+              <label class="form-check-label" for="steroids1">
+                1
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+              <label class="form-check-label" for="steroids2">
+              2
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+              <label class="form-check-label" for="steroids2">
+              3
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+              <label class="form-check-label" for="steroids2">
+              4
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Steroids" id="steroids2">
+              <label class="form-check-label" for="steroids2">
+              5
+              </label>
+            </div>
+        </form>
+          </div>
+  
+          <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Submit
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Thank You!</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Your data has been recorded
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  
+  
+  </body>
+
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
