@@ -1,0 +1,103 @@
+html, body{
+    overflow-x: hidden;
+}
+/* Navbar */
+
+.navbar {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../image/bg-section1.jpg);
+}
+.navbar .nav-link {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #6c757d;
+}
+.navbar .nav-link:hover {
+    color: white;
+}
+.navbar-toggler{
+    color: rgb(204, 204, 204);
+}
+.navbar-toggler-icon {
+    color: rgb(204, 204, 204);
+    padding-top: 15%;
+    font-size: 23px;
+}
+
+/* End Navbar */
+
+/* Home Section */
+.section-home{
+    background: rgb(46, 62, 68);
+    background: linear-gradient(90deg, rgba(68, 112, 131, 0.61) 20%, rgba(111, 111, 148, 0.534) 85%), url(../image/bg-section1.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.intro-home{
+    margin-top: 5%;
+}
+.intro-home h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.intro-home h5{
+    font-size: 15px;
+}
+.intro-home p {
+    font-size: 15px;
+}
+/* End Home Section */
+
+/* About Us Section */
+.section-aboutus{
+    background: rgb(46, 62, 68);
+    background: linear-gradient(90deg, rgba(68, 112, 131, 0.61) 20%, rgba(111, 111, 148, 0.534) 85%), url(../image/bg-section1.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.about-content img:hover{
+    transform: scale(1.03);
+    transition: .4s;
+}
+/* End About Us Section */
+
+/* Activities Section */
+.section-activities{
+    background: rgb(46, 62, 68);
+    background: linear-gradient(90deg, rgba(68, 112, 131, 0.61) 20%, rgba(111, 111, 148, 0.534) 85%), url(../image/bg-section1.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.card-body {
+    background: -webkit-linear-gradient(#2f1cdb, #26b6f0);
+}
+/* End Activities Section */
+
+/* Gallery Section */
+.section-gallery{
+    background: rgb(46, 62, 68);
+    background: linear-gradient(90deg, rgba(68, 112, 131, 0.61) 20%, rgba(111, 111, 148, 0.534) 85%), url(../image/bg-section1.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+/* End Gallery Section */
+
+/* Contact Us Section */
+.section-contactus{
+    background: rgb(46, 62, 68);
+    background: linear-gradient(90deg, rgba(68, 112, 131, 0.61) 20%, rgba(111, 111, 148, 0.534) 85%), url(../image/bg-section1.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+/* Contact Us Section */

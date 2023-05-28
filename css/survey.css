@@ -1,0 +1,14 @@
+*
+.bacground {
+    background-image: linear-gradient(to right, #ff8066,  #021f44);
+
+
+}
+.socialss{
+    border-radius: 50%;
+    border: 7px solid #0b0235;
+    margin-top: 25px;
+}
+.navbar{
+    background-image: linear-gradient(to right, #021f44,  #ff8066);
+}

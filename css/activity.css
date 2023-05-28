@@ -1,0 +1,18 @@
+*
+.section-home{
+    background-image: linear-gradient(to right, #ff8066,  #021f44);
+
+
+}
+.section-about{
+    background-image: linear-gradient(to right,   #021f44, #ff8066);
+}
+.section-twice{
+    background-image: linear-gradient(to right, #ff8066,  #021f44);
+}
+.section-about{
+    color: white;
+}
+.navbar{
+    background-image: linear-gradient(to right,   #021f44, #ff8066);
+}
